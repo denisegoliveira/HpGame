@@ -1,0 +1,4 @@
+function segundaFase() {
+
+    var respostaCorreta
+}

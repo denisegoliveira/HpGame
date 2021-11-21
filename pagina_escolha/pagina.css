@@ -1,0 +1,176 @@
+body {
+    width: 100%;
+    height: 100%;
+    background: #000000;
+}
+
+.pergunta h1 {
+    text-align: center;
+    font-size: 50px;
+    margin: 40px 60px;
+    background-color: #006666;
+    padding: 20px;
+    font-family: fantasy;
+}
+
+.pergunta h2 {
+    text-align: center;
+    font-size: 50px;
+    margin:30px;
+    background-color:#ffffff;
+    padding: 20px;
+    font-family: cursive;
+}
+
+.personagens {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   gap: 30px;
+   margin-top: 40px;
+}
+
+.personagens li {
+	display: inline-block;
+    flex-direction: row;
+    justify-content: space-around;
+    box-sizing: border-box;
+	border-radius: 10px;
+    padding-top: 30px;
+}
+
+.personagens img {
+    max-width: 100%;
+    width: 250px;
+    height: 250px;
+    object-fit: contain;
+}
+
+.luna {
+    border: 5px solid #003366;
+    background-color: #003366;
+}
+
+.draco {
+	border: 5px solid #003300;
+    background-color: #003300;
+}
+
+.cedrico {
+    border: 5px solid #ffcc00;
+    background-color: #ffcc00;
+}
+
+.neville {
+    border: 5px solid #990000;
+    background-color: #990000;
+}
+
+.neville button {
+    background-color: #990000;
+    padding: 15px 80px;
+}
+
+.cedrico button {
+    background-color: #ffcc00;
+    padding: 15px 75px;
+}
+
+.luna button {
+    background-color: #003366;
+    padding: 15px 90px;
+}
+
+.draco button {
+    background-color: #003300;
+    padding: 15px 80px;
+}
+
+.personagens button {
+    border-radius: 10px;
+    text-transform: uppercase;
+    text-align: center solid #000000;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: cursive;
+}
+
+#casa h2 {
+    font-size: 40px;
+    text-align: center;
+    margin: 100px;
+    margin-bottom: 15px;
+    background-color: #006666;
+    padding: 10px;
+    font-family: cursive;
+}
+
+.casas {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 30px;
+    margin: 50px;
+}
+
+.grifi {
+    box-sizing: border-box;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 5px solid #990000;
+    width: 800px;
+    padding: 10px;
+    color: #990000;
+}
+
+.lufa {
+    box-sizing: border-box;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 5px solid #ffcc00;
+    width: 800px;
+    padding: 10px;
+    color: #ffcc00;
+}
+
+.sonse {
+    box-sizing: border-box;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 5px solid #003300;
+    width: 800px;
+    padding: 10px;
+    color: #003300;
+}
+
+.corni {
+    box-sizing: border-box;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 5px solid #003366;
+    width: 800px;
+    padding: 10px;
+    color: #003366;
+}
+
+.casas h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family:fantasy;
+}
+
+.casas img {
+    max-width: 100%;
+    width: 150px;
+    height: 150px;
+    position: relative;
+    left: 50px;
+}
+
+.casas p {
+    font-family: sans-serif;
+    margin-bottom: 10px;
+    text-align: left;
+}
