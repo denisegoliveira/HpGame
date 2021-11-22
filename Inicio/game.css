@@ -65,7 +65,7 @@ main h1 {
 .amigos h3 {
     font-size: 30px;
     color: #ffffff;
-    font-family: fantasy;
+    font-family: monospace;
     position: relative;
     left: 15px;
     top: 150px;
@@ -76,8 +76,9 @@ button {
     font-size: 40px;
     border-radius: 10px;
     background-color: #006666;
-    margin-left: 60px;
-    margin-top: 30px;
     padding: 10px;
+    position: relative;
+    top: 10px;
+    left: 450px;
 }
 

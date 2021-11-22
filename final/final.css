@@ -1,9 +1,23 @@
 body {
-    background-image: url("https://wallpaper.dog/large/10907153.jpg");
+    width: 100%;
+    background-image: url("https://i.pinimg.com/originals/3a/9d/f3/3a9df3a96053038c015f7583a8ee3544.jpg");
+    background-size: cover;
 }
 
 h1 {
     font-size: 80px;
     text-align: center;
-    color: #ffffff;
+    color: #000000;
+    font-family: cursive;
+    margin-top: 80px;
+    text-shadow: 2px 5px #ffffff;
+}
+
+h2 {
+    font-size: 40px;
+    text-align: center;
+    color: #000000;
+    font-family: cursive;
+    margin-top: 80px;
+    text-shadow: 2px 5px #ffffff;
 }

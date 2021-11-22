@@ -1,90 +1,100 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./pagina.css">
-    <link rel="stylesheet" href="./reset.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./pagina.css" />
+    <link rel="stylesheet" href="./reset.css" />
     <title>Game HP</title>
-</head>
-    <body>
+  </head>
+  <body>
+    <main>
+      <div class="pergunta">
+        <h1>Quem irá ajudar Harry, Hermione e Rony nessa missão?</h1>
+        <h2>Escolha o seu personagem</h2>
+      </div>
 
-        <main>
-            <div class="pergunta">
-            <h1>Quem irá ajudar Harry, Hermione e Rony nessa missão?</h1>
-            <h2>Escolha o seu personagem</h2>
-            </div>
+      <ul class="personagens">
+        <li class="neville">
+          <img src="grifinoria.png" />
+          <p></p>
+          <button onclick="escolherPersonagem('Neville')">Neville</button>
+        </li>
 
-            <ul class="personagens">
-                <li class="neville">
-                    <img src="grifinoria.png">
-                    <p></p>
-                    <button onclick="escolherPersonagem('Neville')">Neville</button>
-                </li>
+        <li class="luna">
+          <img src="cornival.png" />
+          <p></p>
+          <button onclick="escolherPersonagem('Luna')">Luna</button>
+        </li>
 
-                <li class="luna">
-                    <img src="cornival.png">
-                    <p></p>
-                    <button onclick="escolherPersonagem('Luna')">Luna</button>
-                </li>
+        <li class="cedrico">
+          <img src="lufalufa.png" />
+          <p></p>
+          <button onclick="escolherPersonagem('Cedrico')">Cedrico</button>
+        </li>
 
-                <li class="cedrico">
-                    <img src="lufalufa.png">
-                    <p></p>
-                    <button onclick="escolherPersonagem('Cedrico')">Cedrico</button>
-                </li>
+        <li class="draco">
+          <img src="sonserina.png" />
+          <p></p>
+          <button onclick="escolherPersonagem('Draco')">Draco</button>
+        </li>
+      </ul>
 
-                <li class="draco">
-                    <img src="sonserina.png">
-                    <p></p>
-                    <button onclick="escolherPersonagem('Draco')">Draco</button>
-                </li>
-            </ul>
+      <div id="casa">
+        <h2>
+          Você também pode conhecer um pouco mais sobre as casas de Hogwarts
+          antes de escolher o seu favorito
+        </h2>
+      </div>
 
-            <div id="casa">
-                <h2>Você também pode conhecer um pouco mais sobre as casas de Hogwarts antes de escolher o seu favorito</h2>
-            </div>
+      <ul class="casas">
+        <li class="grifi">
+          <h2>Grifinória</h2>
+          <p>Características: coragem, bravura, cavalheirirismo e ousadia</p>
+          <p>Animal simbolo: leão</p>
+          <p>Cores: vermelho e dourado</p>
+          <p>Elemento: fogo</p>
+          <img src="leao.png" />
+        </li>
 
-                <ul class="casas">
-                    <li class="grifi">
-                        <h2>Grifinória</h2>
-                        <p>Características: coragem, bravura, cavalheirirismo e ousadia</p>
-                        <p>Animal simbolo: leão</p>
-                        <p>Cores: vermelho e dourado</p>
-                        <p>Elemento: fogo</p>
-                        <img src="leao.png">
-                    </li>
+        <li class="corni">
+          <h2>Cornival</h2>
+          <p>
+            Características: inteligência, sagacidade, originalidade,
+            espiritualidade, criatividade e individualidade
+          </p>
+          <p>Animal simbolo: águia</p>
+          <p>Cores: azul e bronze</p>
+          <p>Elemento: ar</p>
+          <img src="aguia.png" />
+        </li>
 
-                    <li class="corni">
-                        <h2>Cornival</h2>
-                        <p>Características: inteligência, sagacidade, originalidade, espiritualidade, criatividade e individualidade</p>     
-                        <p>Animal simbolo: águia</p>
-                        <p>Cores: azul e bronze</p>
-                        <p>Elemento: ar</p>
-                        <img src="aguia.png">
-                    </li>
+        <li class="lufa">
+          <h2>Lufa-Lufa</h2>
+          <p>
+            Características: dedicação, trabalho duro, jogo limpo, paciência,
+            gentileza e tolerência
+          </p>
+          <p>Animal simbolo: texugo</p>
+          <p>Cores: amarelo e preto</p>
+          <p>Elemento: terra</p>
+          <img src="texugo.png" />
+        </li>
 
-                    <li class="lufa">
-                        <h2>Lufa-Lufa</h2>
-                        <p>Características: dedicação, trabalho duro, jogo limpo, paciência, gentileza e tolerência</p>
-                        <p>Animal simbolo: texugo</p>
-                        <p>Cores: amarelo e preto</p>
-                        <p>Elemento: terra</p>
-                        <img src="texugo.png">
-                        </li>
-
-                    <li class="sonse">
-                        <h2>Sonserina</h2>
-                        <p>Características: ambição, astúcia, esperteza, engenhosidade e individualismo</p>
-                        <p>Animal simbolo: cobra</p>
-                        <p>Cores: verde e prata</p>
-                        <p>Elemento: água</p>
-                        <img src="cobra.png">
-                    </li>
-            </ul>
-            
-        </main>
-            <script src="./pagina.js"></script>
-    </body>
+        <li class="sonse">
+          <h2>Sonserina</h2>
+          <p>
+            Características: ambição, astúcia, esperteza, engenhosidade e
+            individualismo
+          </p>
+          <p>Animal simbolo: cobra</p>
+          <p>Cores: verde e prata</p>
+          <p>Elemento: água</p>
+          <img src="cobra.png" />
+        </li>
+      </ul>
+    </main>
+    <script src="./pagina.js"></script>
+  </body>
 </html>
