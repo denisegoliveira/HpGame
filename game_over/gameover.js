@@ -1,3 +1,3 @@
 function gameOver(){
-    return location = '../Inicio/index.html'
+    return location = '../index.html'
 }
