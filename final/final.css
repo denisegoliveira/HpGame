@@ -9,7 +9,7 @@ h1 {
     text-align: center;
     color: #000000;
     font-family: cursive;
-    margin-top: 80px;
+    margin-top: 60px;
     text-shadow: 2px 5px #ffffff;
 }
 
@@ -20,4 +20,17 @@ h2 {
     font-family: cursive;
     margin-top: 80px;
     text-shadow: 2px 5px #ffffff;
+}
+
+button {
+    margin-top: 250px;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: cursive;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #000000;
+    border: 2px solid #663300;
+    background-color: #cc9933;
 }
