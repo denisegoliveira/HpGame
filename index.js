@@ -1,3 +1,3 @@
 function iniciarJogo(){
-    return location = '../pagina_escolha/index.html'
+    return location = './pagina_escolha/index.html'
 }
