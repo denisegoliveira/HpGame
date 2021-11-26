@@ -70,4 +70,48 @@ main {
     font-size: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-   
+
+@media (max-width: 600px) {
+    body {
+        background: #000000;
+    }
+
+    .quiz, .quiz img {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-left: 80px;
+        width: 100px;
+        height: 100px;
+    }
+    
+    main {
+        width: 500px;
+        height: 600px;
+    }
+    
+    .pergunta p {
+        width: 400px;
+        text-align: justify;
+        position: absolute;
+        top: 250px;
+        left:80px;
+    }
+    
+    .pergunta h2 {
+        font-size: 30px;
+        left: 220px;
+        top: 120px;
+    }
+    
+    .alternativas {
+        margin-top: 280px;
+        margin-left: 50px;
+        margin-right: 100px;
+    }
+    
+    .alternativas li {  
+        padding: 10px;
+        font-size: 20px;
+    }
+}

@@ -174,3 +174,42 @@ body {
     margin-bottom: 10px;
     text-align: left;
 }
+
+@media (max-width: 600px) {
+    .pergunta h1, .pergunta h2{
+        font-size: 20px;
+        margin: 15px 30px;
+        padding: 10px;
+    }
+    
+    .personagens {
+        display: flex;
+        flex-direction: column;
+     }
+     
+     .personagens li {
+        display: inline-block;
+        margin: 5px 40px;
+        padding: 5px;
+    }
+
+     .personagens img {
+        width: 2000px;
+        height: 200px; 
+        position: relative; 
+    }
+    
+     .personagens button {
+        font-size: 20px;
+        padding: 10px 30px;
+        margin-left: 150px;
+     }
+    
+     #casa h2 {
+        display: none;
+     }
+    
+    .casas {
+        display: none;
+    }
+}

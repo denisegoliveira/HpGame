@@ -34,3 +34,28 @@ button {
     border: 2px solid #663300;
     background-color: #cc9933;
 }
+
+@media (max-width: 600px) {
+    body {
+        background-image: url("https://i.pinimg.com/originals/52/ab/3b/52ab3be63c5b8c7c53d755176b0a389c.jpg");
+        background-position: center;
+    }
+
+    h1 {
+        color: #cc9933;
+        text-shadow: 2px 5px #ffffff;
+        margin-top: 60px;
+    }
+    
+    h2 {
+        font-size: 35px;
+        color: #ffffff;
+        text-shadow: 2px 5px  #000000;
+    }
+
+    button {
+        margin-top: 150px;
+        padding: 10px;
+        margin-left: 180px;
+    }
+}

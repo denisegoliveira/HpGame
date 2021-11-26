@@ -23,14 +23,6 @@ h2 {
     padding: 10px;
 }
 
-img {
-    width: 500px;
-    height:500px;
-    position: absolute;
-    left: 100px;
-    top: 20px;
-}
-
 button {
     padding: 10px;
     width: 300px;
@@ -41,4 +33,25 @@ button {
     text-transform: uppercase;
     background-color: #ffffff;
     border-radius: 10px;
+}
+
+@media (max-width: 600px) {
+    body {
+        background: #000000;
+    }
+
+    h1 {
+        font-size: 100px;
+        text-align: center;
+    }
+    
+    h2 {
+        display: none;    
+    }
+    
+    button {
+        margin-left: 150px;
+        margin-top: 80px;
+    }
+    
 }
